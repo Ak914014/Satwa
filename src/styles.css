@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: radial-gradient(circle at top, #feefe1 0%, #fffaf1 40%, #f8f2e6 100%);
+  color: #243227;
+}
+
+a {
+  text-decoration: none;
+}
+
+::selection {
+  background: rgba(211, 161, 47, 0.32);
+}
