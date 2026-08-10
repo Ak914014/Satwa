@@ -478,6 +478,9 @@ export default function App() {
                   {errors.quantity && <span className="text-xs font-semibold normal-case tracking-normal text-[#7C2B22]">{errors.quantity}</span>}
                 </label>
               </div>
+
+
+              
               <label className="grid gap-2 text-sm font-bold uppercase tracking-wide text-[#1D1712]">
                 Notes
                 <textarea
